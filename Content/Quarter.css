@@ -1,0 +1,72 @@
+﻿#ChartDivCur
+{
+    width: 760px;
+    margin: auto;
+    float: left;
+}
+
+#movetop
+{
+    display: none;
+}
+
+#QtrTableOpts
+{
+    bottom: 20px;
+    position: absolute;
+    width: 130px;
+}
+
+    #QtrTableOpts div.QtrOption
+    {
+        background-color: #FCD4DC;
+        display: block;
+        cursor: pointer;
+        height: 35px;
+        width: 165px;
+        margin-top: 5px;
+        position: relative;
+        float: left;
+    }
+
+    #QtrTableOpts a
+    {
+        padding-top: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+        color: #404041;
+        position: relative;
+        float: left;
+    }
+
+
+    #QtrTableOpts img.optionImg
+    {
+        padding-right: 10px;
+        padding-left: 5px;
+        border-right: 1px solid #c7c8ca;
+        margin: 5px;
+        float: left;
+    }
+
+#DrillDivEscape a.DrillOptionExit
+{
+    color: white;
+    float: left;
+    clear: both;
+    margin-top: 5px;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+#DrillDivEscape a.DrillOptionExit:hover {
+    color: #000055;
+}
+
+.companyLevel {
+    cursor: pointer;
+}
+
+.companyLevel:hover {
+    color: #000055;
+}

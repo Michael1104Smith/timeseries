@@ -1,0 +1,1346 @@
+﻿/* reset*/
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+    display: block;
+}
+
+body
+{
+    color: #404041;
+    margin-top: 0;
+    line-height: 1;
+    background: #f2f2f2;
+    margin-top: -19px;
+    font-family: Georgia;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: none;
+}
+
+ol, ul
+{
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+#navigation {
+    margin-top: 10px;
+}
+
+blockquote, q
+{
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after, q:before, q:after
+    {
+        content: none;
+    }
+
+.orangePageHeader {
+    display: block;
+    color: #000055;
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.clickableLink {
+    color: #eb8c00;
+    cursor: pointer;
+        text-decoration: none;
+}
+
+.clickableLink:hover {
+    color: #a32020;
+}
+
+.grayButton, .smallGrayButton {
+    display: block;
+    background-color: #9FA0A2;
+    border-radius: 4px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.smallGrayButton {
+    font-size: 12px;
+    width: 125px;
+    height: 20px;
+    line-height: 21px;
+}
+
+.grayButton {
+    font-size: 14px;
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.grayButton, .UpdateButton, .smallGrayButton {
+    cursor: pointer;
+}
+.grayButton:hover, .UpdateButton:hover, .smallGrayButton:hover {
+    background-color: #eb8c00;
+}
+
+
+#container, #FullPage, #footernav {
+width: 1000px;
+}
+
+#container, #FullPage
+{
+    background-color: white;
+    margin: auto;
+    min-height: 500px;
+}
+
+#topNav
+{
+    z-index: 100;
+    height: 125px;
+    position: relative;
+}
+
+    #topNav #logo
+    {
+        margin: 10px 0 0 10px;
+        float: left;
+        margin-bottom: 1px;
+    }
+
+    #topNav #credStamp {
+        display: block;
+        clear: right;
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    #topNav #credStamp a {
+        float: right;
+        clear: both;
+    }
+
+    #topNav h1
+    {
+        /*float: right;*/
+        font-size: 48px;
+        font-family: georgia;
+        font-style: italic;
+        font-weight: bold;
+        margin: 20px 200px 0 0;
+        color: #444;
+    }
+
+        #topNav h1 sup
+        {
+            font-size: 10px;
+            vertical-align: top;
+            vertical-align: top;
+        }
+
+
+
+#content
+{
+    width: 980px;
+    min-height: 500px;
+    margin: 20px 10px 0 10px;
+}
+
+#footer
+{
+    display: block;
+    clear: both;
+    margin-top: 10px;
+}
+
+#footernav {
+float: left;
+}
+
+#footernav .footerNav
+{
+    border-top: 4px solid #939598;
+    color: #404041;
+    display: block;
+    float: left;
+    font-size: 11px;
+    line-height: 25px;
+    list-style: none outside none;
+    margin-left: 10px;
+    margin-top: 25px;
+    position: relative;
+    text-decoration: none;
+    width: 112px;
+}
+
+#movetop {
+    width: 100px;
+    height: 20px;
+    float: right;
+    position: relative;
+    right: 30px;
+    bottom: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #404041;
+}
+
+
+#footer p
+{
+    clear: both;
+    font-size: 10px;
+    font-family: arial;
+    padding: 10px;
+}
+
+#PrivacyMain
+{
+    margin: 0 10px 0 10px;
+}
+
+    #PrivacyMain div.privacyHeavy
+    {
+        padding-top: 25px;
+        font-weight: bold;
+    }
+
+    #PrivacyMain ul
+    {
+        margin-left: 60px;
+        list-style: circle;
+    }
+
+
+#navlinks
+{
+    margin: 10px -15px 0 10px;
+    display: block;
+    clear: both;
+    padding-top: 1px;
+}
+
+
+.root_links
+{
+    list-style: none;
+    float: left;
+    position: relative;
+    font-size: 11px;
+    margin-right: 12px;
+    width: 154px;
+}
+
+.root_links_anchor
+{
+    background: white;
+    border-top: 4px solid #c7c8ca;
+    color: #404041;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 25px;
+    padding-top: 5px;
+    text-decoration: none;
+    width: 154px;
+    z-index: 550;
+}
+
+    .root_links_anchor:hover
+    {
+        /*padding-bottom:5px;*/
+        border-top-color: #a32020;
+        /*background:#f8f3f3;*/
+        /*width: 130px;*/
+    }
+
+#navlinks ul .navDropdown
+{
+    float: left;
+    position: absolute;
+    width: 168px;
+    top: 20px;
+    z-index: 500;
+    height: auto;
+    display: none;
+    background: white;
+    margin: 5px 2px 0 -8px;
+    padding: 0;
+}
+
+#navlinks ul .navDropdown ul{
+    border-top: 2px dotted #f00;
+    padding-top: 5px;
+    margin: 0 7px 0 10px;
+}
+
+.level2_links
+{
+    padding-bottom: 8px;
+    /*width: 180px;*/
+    /*margin-left: 10px;*/
+}
+
+    .level2_links a
+    {
+        color: #404041;
+        text-decoration: none;
+        /*margin-left: 5px;*/
+    }
+
+        .level2_links a:hover, .root_links_anchor:hover
+        {
+            cursor: pointer;
+            color: #a32020;
+        }
+
+
+
+#NewsDiv h1
+{
+    margin-bottom: 0;
+    clear: both;
+    padding-top: 15px;
+}
+
+#NewsBox
+{
+    border-top: 4px solid #eb8c00;
+}
+
+    #NewsBox ul
+    {
+        color: #404041;
+        list-style: disc;
+        margin-top: 10px;
+    }
+
+    #NewsBox li
+    {
+        margin-left: 50px;
+    }
+
+    #NewsBox p
+    {
+        border-collapse: collapse;
+        border-top: 1px solid #c7c8ca;
+        font-family: Georgia;
+        color: #404041;
+        display: block;
+        text-decoration: none;
+        margin: 0 0 0 -50px;
+        padding: 10px 0 10px 50px;
+    }
+
+#MainDiv
+{
+    border-top: 4px solid #000055;
+}
+
+#MainDivShort
+{
+    border-top: 4px solid #eb8c00;
+    width: 775px;
+}
+
+
+#DefDiv div.HeaderBorders, #CurQtrTextHeading
+{
+    border-top-width: 776px;
+}
+
+
+
+.filterHeader
+{
+    font-family: Calibri;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px olive;
+    /*border:solid 1px;*/
+    /*border-color:#c2c0c0;*/
+    /*background: -moz-linear-gradient(top,silver,#404041)*/
+    /* For WebKit (Safari, Google Chrome etc) */
+    /*background: -webkit-linear-gradient(top, rgb(68, 68, 68), rgb(231, 231, 231));*/
+    background: -webkit-radial-gradient(rgb(231, 231, 231), rgb(68, 68, 68));
+    /* For Mozilla/Gecko (Firefox etc) */
+    /*background: -moz-linear-gradient(top,  rgb(68, 68, 68),  rgb(231, 231, 231));*/
+    background: -moz-radial-gradient(rgb(231, 231, 231), rgb(68, 68, 68));
+    /* For Internet Explorer 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(231, 231, 231) endColorstr=rgb(0, 0, 0));
+    /* For Internet Explorer 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(231, 231, 231), endColorstr=rgb(0, 0, 0))";
+}
+
+.filterListDiv
+{
+    height: 120px;
+    overflow: auto;
+    border: solid 1px orange;
+    display: none;
+}
+
+
+#HTTextHeading
+{
+    color: #eb8c00;
+    font-family: Georgia,serif;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    float: left;
+    z-index: 900;
+}
+
+
+#HTTextContent {
+    color: #797979;
+    float: left;
+    font-size: 16px;
+    font-family: Arial;
+    line-height: 22px;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 800px;
+}
+
+.CurQtrMainDivs
+{
+    width: 950px;
+    margin-left: 20px;
+}
+
+#CurQtrTextHeading
+{
+    font-family: georgia;
+    font-size: 23px;
+    padding-top: 10px;
+    color: #eb8c00;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+#cartDivMasterContainer
+{
+}
+
+#CurQtrTextContent
+{
+    font-family: 'Trebuchet MS',serif;
+    font-size: 16px;
+    color: #797979;
+    font-weight: bold;
+    /*float:right;*/
+    height: 65px;
+    z-index: 900;
+    line-height: 65px;
+}
+
+#HTTextContent .TitleTxtR {
+    color: #a32020;
+    font-weight: bold;
+}
+#HTTextContent .TitleTxtBold {
+    font-weight: bold;
+}
+
+#Choice3FilterDiv
+{
+    background-color: #A32020;
+    overflow: auto;
+    left: 352px;
+    top: 0;
+    width: 608px;
+}
+
+.Choice2FilterDivsCommon
+{
+    background-color: #DB9E9E;
+    color: white;
+    font-family: Georgia,serif;
+    font-size: 16px;
+    left: 165px;
+    top: 0;
+    width: 164px;
+}
+
+.Choice1FilterDivMain
+{
+    background-color: #A32020;
+    left: 0;
+    top: 0;
+    width: 142px;
+}
+
+
+
+.Choice2FilterDivsCommon a
+{
+    display: block;
+    font-family: Georgia,serif;
+    height: 25px;
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+
+#Choice3FilterDiv tr > td
+{
+    vertical-align: top;
+}
+
+#Choice3FilterDiv table
+{
+    margin: auto;
+}
+
+.Choice2FilterDivsCommon a:hover
+{
+    color: #A32020;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.Choice2FilterDivsCommon a.selected
+{
+    color: #A32020;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.Choice2FilterLinkSelected
+{
+    font-size: 18px;
+    color: #a32020;
+}
+
+.Choice1FilterDivMain a
+{
+    color: #CABBA8;
+    font-family: Georgia,serif;
+    /*font-size: 26px;*/
+    font-style: italic;
+    font-weight: bold;
+    display: block;
+    /*font-family: Georgia,serif;*/
+    height: 25px;
+    margin-top: 45px;
+    font-size: 21px;
+    /*color: rgb(180, 146, 146);*/
+}
+
+    .Choice1FilterDivMain a.selected
+    {
+        color: white;
+        cursor: pointer;
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    .Choice1FilterDivMain a:hover
+    {
+        color: white;
+        cursor: pointer;
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+.filterOptions
+{
+    display: none;
+    border-top: 2px solid #c7c8ca;
+}
+
+#CompIndustryList
+{
+    display: block;
+}
+
+#DateMain
+{
+    margin-top: 30px;
+}
+
+#PickDate
+{
+    background-color: #727272;
+    color: #020100;
+    float: right;
+    font-family: georgia,serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 132px;
+    margin-right: -10px;
+    margin-top: 13px;
+    padding: 5px;
+    text-align: center;
+    width: 22px;
+}
+
+    #PickDate:hover
+    {
+        cursor: pointer;
+    }
+
+#DateSelectionDiv
+{
+    background: none repeat scroll 0 0 gray;
+    height: 142px;
+    left: 165px;
+    position: absolute;
+    top: 203px;
+    width: 365px;
+}
+
+.FromYrSelBox
+{
+    height: 86px;
+    width: 60px;
+}
+
+.FromQtrSelBox
+{
+    margin-left: 15px;
+}
+
+.DateTopLabel
+{
+    font-family: Georgia;
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 7px;
+}
+
+#DateOKButtonDiv
+{
+    border: 2px solid #404041;
+    float: right;
+    height: 18px;
+    margin-right: 25px;
+    margin-top: 5px;
+    text-align: center;
+    width: 30px;
+}
+
+
+
+.DateSelQtr
+{
+    float: left;
+    margin-right: 10px;
+}
+
+
+#DateFromDiv
+{
+    float: left;
+    width: 160px;
+    padding: 5px 5px 5px 15px;
+}
+
+#DateThroughDiv
+{
+    float: right;
+    width: 160px;
+    padding: 5px;
+}
+
+#ToDateDisplayLabel
+{
+    margin-left: 20px;
+}
+
+.PlainDateDispLbl
+{
+    font-family: Georgia;
+    font-size: 16px;
+}
+
+
+.rotate-text
+{
+    width: 1em;
+    text-transform: uppercase;
+}
+
+
+.SelectClearOptionOuter
+{
+    margin-right: -35px;
+}
+
+#ToolTipContainer
+{
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    width: 330px;
+    -moz-border-radius: 15px;
+    border-radius: 10px;
+    padding: 8px 15px;
+    /*box-shadow: 0px 0px 1pt 1pt #c7c8ca;*/
+    border: 2px solid #c7c8ca;
+    z-index:5;
+}
+
+#TTpin
+{
+    position: absolute;
+    top: -28px;
+    right: 10px;
+}
+
+#TTHeader, #publicTT
+{
+    margin: 5px 5px 5px 0;
+    float: left;
+    width: 320px;
+    border-bottom: 1px solid #c7c8ca;
+    padding-bottom: 4px;
+}
+
+#TTDetailsDiv
+{
+    color: #404041;
+    float: left;
+    font-family: Arial;
+    font-size: 24px;
+}
+
+#percentTextDiv
+{
+    float: right;
+    margin-top: 5px;
+}
+
+#percentText
+{
+    float: right;
+    font-family: Arial;
+    font-weight:bold;
+}
+
+#TTPercentChangeDiv
+{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight:bold;
+    color: #e44c4c;
+    float: right;
+    margin-left: 13px;
+}
+
+#ToolTipContainer .TTRow {
+    float: left;
+    display: block;
+    clear: both;
+    width: 100%;
+}
+
+.percentTotal {
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 36px;
+    font-weight: bold;
+    clear: both;
+}
+.TTDealCount {
+    float: right;
+}
+
+#dataSlot1,
+#dataSlot2 {
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#dataSlot1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+
+#dataSlot2 {
+    color: #000055;
+}
+
+#TTCurrentQuarterAmount
+{
+    font-size: 18px;
+    clear: left;
+    float: left;
+}
+#TTCurrentQuarterDeals {
+    font-size: 18px;
+    float: right;
+    margin-right: 20px;
+}
+
+#TTPreviousQuarterAmount {
+    font-size: 18px;
+    clear: left;
+    float: left;
+}
+#TTPreviousQuarterDeals {
+    font-size: 18px;
+    float: right;
+    margin-right: 20px;
+}
+
+#TTExploreText
+{
+    color: #E44C4C;
+    float: right;
+    font-family: Georgia;
+    font-size: 16px;
+    margin-left: 32px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+#TTDrillDownOptionDiv tr > td
+{
+    vertical-align: top;
+    border: none;
+}
+
+#TTDrillDownOptionDiv table
+{
+    border: none;
+    margin: auto;
+}
+
+#TTHelper
+{
+    float: left;
+    clear: both;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.LoginSection
+{
+    float: right;
+    margin-right: 1px;
+}
+
+#MoneyTreeTextLogo
+{
+    float: left;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    width: 320px;
+}
+
+#LoginControlDiv
+{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+
+#login a
+{
+    background-color: #404041;
+    color: #FFFFFF;
+    float: right;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    height: 12px;
+    line-height: 13px;
+    padding: 5px 0 5px 10px;
+    text-decoration: none;
+    min-width: 135px;
+}
+
+#LoginControlDiv #loginArrowIcon
+{
+    float: right;
+    height: 22px;
+    width: 22px;
+    position: relative;
+}
+
+#login a:hover
+{
+    cursor: pointer;
+    color: #a32020;
+}
+
+#login div.LinkAfterLogin,
+#login div.LinkBeforeLogin a
+{
+    float: left;
+}
+
+.logoff
+{
+    margin: auto;
+    float: right;
+}
+
+.labelMain
+{
+    text-align: justify;
+}
+
+#NoFirm a.clickMe
+{
+    cursor: pointer;
+    color: #a32020;
+}
+
+
+label.checkbox
+{
+    display: inline;
+}
+
+input[type="checkbox"]
+{
+    background: none repeat scroll 0 0 transparent;
+    border: inherit;
+    width: auto;
+    font-family: Georgia,serif;
+}
+
+.RegisterTitle label
+{
+    font-family: Georgia,serif;
+    font-size: 16px;
+    margin-bottom: 36px;
+    margin-left: 18px;
+    width: 850px;
+    color: #a32020;
+    font-weight: bold;
+}
+
+#loginForm p
+{
+    width: 300px;
+    padding-top: 15px;
+    margin: auto;
+}
+
+.validation-summary-errors
+{
+    color: #E80C4D;
+    font-size: 1.2em;
+}
+
+.field-validation-error
+{
+    color: #E80C4D;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.arrow-down-filt
+{
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid rgb(61, 33, 33);
+}
+
+.arrow-down-cq
+{
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid #a32020;
+    margin-top: 475px;
+    position: absolute;
+    margin-left: 44px;
+    z-index: 250;
+    display: none;
+}
+
+.arrow-div-choice1
+{
+    margin-top: -10px;
+}
+
+.arrow-div-choice2
+{
+    margin-top: -10px;
+}
+
+.arrow-div-choice3
+{
+    margin-top: -10px;
+    float: right;
+}
+
+#EditContainerDiv
+{
+    width: inherit;
+    height: 629px;
+    margin: auto;
+    position: relative;
+}
+
+#EditorHeader
+{
+    font-family: Georgia,serif;
+    font-size: 18px;
+    color: #a32020;
+    margin-bottom: 25px;
+    margin-left: 29px;
+}
+
+#EditContentDiv
+{
+    float: right;
+    left: 243px;
+    /*margin-top: -5px;*/
+    position: absolute;
+}
+
+#EditOptionDiv
+{
+    position: absolute;
+    height: 583Px;
+    padding: 10px;
+    background-color: #8F6767;
+    color: white;
+    font-family: Georgia,serif;
+    font-size: 16px;
+    left: 10px;
+    top: 0;
+    width: 210px;
+}
+
+#EditorMainOptions a
+{
+    display: block;
+    font-family: Georgia,serif;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+    #EditorMainOptions a:hover
+    {
+        color: #A32020;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    #EditorMainOptions a.selected
+    {
+        color: #A32020;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+#EditorYearDiv
+{
+    float: left;
+    margin-right: 22px;
+}
+
+#EditorMainOptions
+{
+    height: 410px;
+    padding: 5px;
+}
+
+#ChartBackGroundDiv
+{
+    background: #a32020;
+    padding: 15px 0 15px 15px;
+    height: 460px;
+    position: relative;
+}
+
+#EditorBackGroundDiv
+{
+    background: #F8ECEC;
+    position: relative;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+
+#chartSideBar
+{
+    height: 455px;
+    left: 775px;
+    margin-left: 10px;
+    position: absolute;
+    width: 195px;
+}
+
+#drillLabel
+{
+    background-color: #c7c8ca;
+    color: #404041;
+    font-weight: bold;
+    font-family: Georgia;
+    font-style: italic;
+    float: left;
+    width: 100px;
+    height: 18px;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 12px;
+    margin-top: 30px;
+    clear: both;
+}
+
+#DrillDownDiv
+{
+}
+
+
+    #DrillDownDiv h4
+    {
+        font-family: Arial;
+        font-size: 16px;
+        border-bottom: 1px solid white;
+        clear: both;
+        color: #FFFFFF;
+        float: left;
+        height: 20px;
+        width: 195px;
+        margin: 5px 0 2px 0;
+    }
+
+#drillSpacer
+{
+    color: #FFFFFF;
+    float: left;
+    font-family: georgia;
+    font-size: 15px;
+    font-style: italic;
+    height: 40px;
+    width: 67px;
+}
+
+#DrillDivEnter
+{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    margin: 5px 5px 5px -5px;
+    clear: both;
+}
+
+    #DrillDivEnter .Xdrill
+    {
+        background-color: #EB8C00;
+        color: #FFFFFF;
+        font-size: 10px;
+        height: 16px;
+        padding-top: 6px;
+        text-align: center;
+        width: 22px;
+        float: left;
+        clear: left;
+        display: none;
+    }
+
+    #DrillDivEnter .floatContainer
+    {
+        float: left;
+        position: relative;
+        clear: both;
+    }
+
+    #DrillDivEnter .DrillOptionEnter
+    {
+        background-color: #a32020;
+        color: white;
+        float: left;
+        font-family: Georgia;
+        font-weight: bold;
+        margin: 0 3px 2px;
+        padding: 0 10px;
+        cursor: pointer;
+        height: 25px;
+        line-height: 25px;
+    }
+
+
+    #DrillDivEnter div.DrillOptionEnter:hover
+    {
+        cursor: pointer;
+        background-color: #000055;
+    }
+
+#DrillDownDiv
+{
+    margin-bottom: 175px;
+    float: left;
+    height: 135px;
+}
+
+
+/*********************************************************************/
+
+
+#PageJumps
+{
+    margin: 0;
+    list-style-type: square;
+}
+
+    #PageJumps a.FinalJump
+    {
+        border-bottom: 1px solid #c7c8ca;
+        padding-bottom: 6px;
+    }
+
+
+    #PageJumps li
+    {
+        padding-bottom: 6px;
+        color: #eb8c00;
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    #PageJumps a.PageJump
+    {
+        border-top: 1px solid #c7c8ca;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        font-family: Georgia;
+        color: #404041;
+        display: block;
+        padding-top: 10px;
+        text-decoration: none;
+        margin-left: -50px;
+        padding-left: 50px;
+    }
+
+#DefDiv a.defLabelHeader
+{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    color: #404041;
+    font-family: Georgia;
+}
+
+#DefDiv .labelMainNormal {
+    margin-top: 4px;
+}
+
+#DefDiv li.ListHeader
+{
+    list-style-type: square;
+    font-size: 20px;
+    color: #a32020;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#DefDiv .defSection
+{
+    margin: 0 0 0 0;
+    color: #404041;
+    font-size: 15px;
+    font-family: Georgia;
+}
+
+    #DefDiv .defSection ul p, #DefDiv .defSection .endPara
+    {
+        margin: 0;
+    }
+
+#DefDiv a.defTop {
+    float: right;
+    font-family: Arial;
+    font-size: 14px;
+    color: #a32020;
+    text-decoration: none;
+    margin-top: 14px;
+}
+
+
+#DefDiv div.HeaderBorders
+{
+    border-bottom: 1px solid #C7C8CA;
+    border-collapse: collapse;
+    border-top: 4px solid #A32020;
+    margin-left: -50px;
+    margin-top: 32px;
+    padding: 10px 0 12px 50px;
+}
+
+
+DefDiv li li
+{
+    list-style-type: none;
+}
+
+
+
+#MainDefDiv
+{
+    margin-top: -18px;
+    padding-bottom: 30px;
+}
+
+    #MainDefDiv .industryContainer {
+        display: inline;
+    }
+
+    #MainDefDiv img.defImg {
+        padding: 20px 20px 12px 0;
+        margin: 0;
+        float:left;
+        clear:left;
+    }
+        #MainDefDiv img.SectorDefImg {
+        padding: 10px 20px 12px 0;
+        margin: 0;
+        float:left;
+        clear:left;
+    }
+    
+    
+
+    #MainDefDiv p.labelHdrMainLinkBlack
+    {
+        font-weight: bold;
+        font-size: large;
+        color: #A32020;
+        padding-top: 20px;
+        padding-bottom: 3px;
+        margin: 0;
+    }
+    #MainDefDiv p.emptyHeader {
+        padding-top: 20px;
+        margin: 0;
+    }
+
+#ChartDivCur .highcharts-xaxis-labels text:last-child{
+    display:none;
+}

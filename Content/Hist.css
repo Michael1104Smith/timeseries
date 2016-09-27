@@ -1,0 +1,318 @@
+﻿
+
+#HTFilterForm
+{
+    color: #404041;
+    border: 1px solid #000055;
+    background-color: #F3ECEC;
+    overflow:auto;
+}
+
+#downloadHistButton {
+    background-color: #E7E7E8;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    left: 860px;
+    position: relative;
+    top: 10px;
+    width: 93px;
+    z-index: 2;
+    padding:3px;
+}
+
+    #downloadHistDropdown{
+        background-color: #E7E7E8;
+        border-top: 1px dotted #FF0000;
+        float:left;
+        clear:both;
+        display: block;
+        position: relative;
+        width: 100%;
+        padding:3px;
+        margin-left: -3px;
+        display:none;
+    }
+#highchartsData {
+    display: none;
+}
+
+#downloadHistDropdown .dlopt, #downloadHistButton .dlheader {
+    background-color: #E7E7E8;
+    float:left;
+    clear:both;
+    display: block;
+    position: relative;
+    z-index: 2;
+    font-size: 12px;
+    line-height: 15px;
+    text-align:center;
+    width: 100%;
+    cursor: pointer
+}
+
+    #downloadHistDropdown .dlopt:hover {
+        color: #000055;
+    }
+
+
+#FiltHeader, #header
+{
+    height: 60px;
+    line-height: 60px;
+}
+
+#FiltHeader
+{
+    background-color: #6da7e3;
+    font-size: 25px;
+    width: 100%;
+    position: relative;
+}
+
+    #header
+    {
+        background-color: #000055;
+        float: left;
+        padding: 0;
+        font-family: Georgia;
+        color: white;
+        padding: 0 20px;
+    }
+
+#dateRange
+{
+    float: right;
+    background-color: #6da7e3;
+}
+
+#dateRange div.DateSecLevelLabel
+{
+    float: right;
+    font-family: Georgia;
+    font-size: 18px;
+    margin-right: 0px;
+}
+    #dateRange div.SelBox
+    {
+        float: right;
+        line-height: 56px;
+    }
+
+        #dateRange div.SelBox select
+        {
+            background: #404041;
+            border: 0 none;
+            color: #FFFFFF;
+            padding: 5px;
+            margin: 0 11px;
+        }
+
+#filterbox, .TheFiltHeader
+{
+    width: 970px;
+}
+
+#filterBox
+{
+    float: left;
+    clear:both;
+        overflow: auto;
+    position: relative;
+    width: 100%;
+}
+
+
+#DispDate
+{
+    width: 120px;
+    float: right;
+    height: 30px;
+    background-color: #6da7e3;
+    margin: 0;
+    padding: 0;
+}
+
+
+.ChoiceFilterDivs
+{
+    position: relative;
+    height: 420px;
+}
+
+
+#Choice1FilterDivComp
+{
+    width: 200px;
+    background-color: #e7e7e8;
+    float: left;
+    padding-top: 10px;
+}
+
+    #Choice1FilterDivComp a
+    {
+        cursor: pointer;
+        display: block;
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 1px;
+        padding: 10px 20px;
+    }
+
+        #Choice1FilterDivComp a.selected
+        {
+            background-color: #000055;
+            color: #fff;
+            cursor: auto;
+        }
+
+#Choice2FilterDiv
+{
+    float: left;
+    width: 500px;
+    margin-left: 50px;  
+}
+
+#Choice2FilterDiv h3
+{
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.filterInnerLabel
+{
+    display: block;
+    font-family: Georgia,serif;
+    font-size: 17px;
+    height: auto;
+    position: relative;
+    width: 275px;
+}
+
+    .filterInnerLabel:hover
+    {
+        cursor: pointer;
+    }
+
+.filtSection
+{
+    height: 100%;
+    width: 300px;
+    padding-top: 5px;
+}
+
+.firmCompHeading
+{
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#filtTable
+{
+    /*outline: 1px solid #818550;*/
+    margin: auto;
+    padding: 10px;
+    clear: both;
+}
+
+
+.SelectClearOption
+{
+    font-size: 16px;
+    cursor: pointer;
+    height: 18px;
+    line-height: 18px;
+    padding: 5px;
+    width: 70px;
+    text-align: center;
+    position:absolute;
+    color: #fff;
+    background-color: #A32020;
+    border-radius: 0;
+    font-style: italic;
+}
+
+    
+
+#ClearAllCheckBox1 {
+    bottom: 16px;
+    left: 250px;
+}
+
+div.filterOptions table
+{
+    margin-top:10px;
+}
+
+div.filterOptions table td
+{
+    vertical-align: top;
+}
+
+input, textarea
+{
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #E2E2E2;
+    color: #404041;
+    font-size: 1.2em;
+    margin: 5px 0 6px;
+    padding: 5px;
+    width: 285px;
+    font-family: Georgia,serif;
+}
+
+#backToHistorical
+{
+    cursor: pointer;
+    display: none;
+    font-weight: bold;
+    line-height: 19px;
+    right: 20px;
+    top: 20px;
+    width: 178px;
+}
+
+    #backToHistorical:hover
+    {
+        background-color: #000055;
+    }
+
+#DrillDivEnter div.hasDrilled
+{
+    display: none;
+}
+
+#DateErrorMsgDiv
+{
+    background-color: transparent;
+    line-height: 12px;
+    color: red;
+    font-family: georgia,serif;
+    font-size: 12px;
+    /*font-weight: bold;*/
+    height: 28px;
+    position: absolute;
+    top: -35px;
+    left: 645px;
+    width: 335px;
+}
+
+#cartDivMasterContainer {
+    position:relative;
+    clear: both;
+}
+
+#ChartDivCur {
+    min-height: 450px
+}
+
+#ChartDivCur a.companyLevel {
+    cursor: pointer;
+}
+#ChartDivCur a.companyLevel:hover {
+    color: #000055;
+}
